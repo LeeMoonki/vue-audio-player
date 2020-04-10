@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g fill="none" fill-rule="evenodd">
+    <path
+      fill="#fff"
+      fill-opacity="0"
+      d="
+        M 0 0
+        h 60
+        v 60
+        H 0
+        z"
+    />
+    <path
+      stroke="#232323"
+      fill="#232323"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="3"
+      d="
+        M 10 10
+        L 50 50
+        M 50 10
+        L 10 50
+        Z"
+    />
+  </g>
+</svg>
