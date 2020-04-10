@@ -1,16 +1,28 @@
 <template>
   <div class="home">
-    <AudioPlayer :url="'http://localhost:8080/1to20.wav'" :height="100" />
+    <div class="audio-player-wrapper">
+      <AudioPlayer :url="'http://localhost:8080/1to20.wav'" />
+    </div>
+    <div class="audio-player-wrapper">
+      <AudioPlayerSmall :url="'http://localhost:8080/1to20.wav'" />
+    </div>
   </div>
 </template>
 
 <script>
 import AudioPlayer from '@/components/AudioPlayer';
+import AudioPlayerSmall from '@/components/AudioPlayerSmall';
 
 export default {
   name: 'Home',
   components: {
-    AudioPlayer
+    AudioPlayer, AudioPlayerSmall
   }
 }
 </script>
+
+<style scoped>
+.audio-player-wrapper {
+  /* */
+}
+</style>
